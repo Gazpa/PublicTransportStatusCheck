@@ -1,0 +1,26 @@
+html,
+body,
+#root,
+#page-wrapper,
+#page-container,
+#main-container {
+  height: 100%;
+}
+
+.navbar,
+.clearfix {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+#page-content {
+  padding-top: 70px;
+  margin-bottom: 37px;
+  height: calc(100% - 37px);
+  overflow: auto;
+}
+
+.clearfix {
+  bottom: 0;
+}
